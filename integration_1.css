@@ -1,0 +1,92 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+     margin: 0 ;
+     padding: 0 ;
+ }
+
+#page {
+     padding-left: 15% ;
+     padding-right: 15% ;
+ }
+
+ nav {
+     background-color: black ;
+     padding: 3em ;
+     padding-left: 15% ;
+ }
+
+li{
+    display: inline ;
+    margin-left: 1em ;
+}
+
+li a:hover {
+    background-color: lightgray ;
+}
+
+li a {
+    color: gray ;
+    text-decoration: none ;
+}
+
+img {
+    float: left;
+    width: 900px ;
+    height: 350px ;
+    margin-bottom: 1em ;
+    margin-right: 1em ;
+}
+
+div {
+    margin-bottom: 1em ;
+}
+
+h1 {
+    margin: 1em ;
+}
+
+#head {
+    padding-left: 1em ;
+}
+
+#call_button {
+    padding: 1em ;
+    background-color: mediumblue ;
+    display: inline-block;
+    margin : 1em ;
+    border-radius: 10px ;
+    color: white ;
+    text-decoration: none ;
+    margin-top: 1em ;
+}
+
+#message {
+    background-color: lightgray ;
+    border-radius: 10px ;margin-bottom: 5em
+    padding: 1em ;
+    margin-top: 1em ;
+}
+
+#message p {
+    text-align: center ;
+}
+
+.heading {
+    display: inline-block ;
+    width: 25% ;
+    margin: 2em ;
+}
+
+#middle p {
+    margin-top: 1em ;
+    margin-bottom: 1em ;
+}
+
+.info_button {
+    padding: 0.5em ;
+    border-radius: 5px ;
+    border: lightgray solid;
+    text-decoration: none ;
+}
